@@ -6749,7 +6749,7 @@
 				(justify right)
 			)
 		)
-		(pin "HC14-in" input
+		(pin "HC14-in" output
 			(at 53.34 83.82 0)
 			(uuid "3270e382-b45d-4505-8941-4405b0408c87")
 			(effects
@@ -6759,7 +6759,7 @@
 				(justify right)
 			)
 		)
-		(pin "HC14-out" output
+		(pin "HC14-out" input
 			(at 53.34 86.36 0)
 			(uuid "81a33681-198f-4833-9201-93e10f9395c0")
 			(effects
