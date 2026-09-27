@@ -629,6 +629,30 @@
           "label": "KiLib_Generator",
           "name": "KiLib_Generator",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -679,13 +703,25 @@
         "uuid": "d75631b8-0d07-44dd-83d0-e59206b11940"
       }
     ],
-    "used_designators": "U1-13,A1-2,SW1-7,C1-8,#FLG1,R1-14,R21,D1,#PWR1-4,RN1-4,BZ1",
+    "used_designators": "U1-13,A1-2,SW1-7,C1-16,#FLG1-4,R1-16,R21,D1-3,#PWR1-7,RN1-4,BZ1",
     "variants": []
   },
   "sheets": [
     [
       "d75631b8-0d07-44dd-83d0-e59206b11940",
       "ルート"
+    ],
+    [
+      "96659f97-ab1a-4167-8c01-6eec3e003a00",
+      "時間入力部"
+    ],
+    [
+      "bcda9061-dbcc-4064-85de-1449ba6efa5e",
+      "デバウンス回路"
+    ],
+    [
+      "10ac5cdd-819e-44c7-b7d2-4917c8379e22",
+      "1Hz発振回路"
     ]
   ],
   "text_variables": {},
